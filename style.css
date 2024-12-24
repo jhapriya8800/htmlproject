@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top-bar-wrap {
+    display: flex;
+    justify-content: space-between; /* Adds gap between left and right */
+    align-items: center; /* Aligns items vertically */
+    background-color: #1a73e8;
+   gap: 10px;
+}
+.has-img img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #fff !important;
+    border: 1px solid black;
+}
+.has-contact {
+    display: flex;
+    align-items: center;
+    margin: 4px;
+    padding: 7px;
+    gap: 10px; 
+}
+
+.has-contact img {
+    flex-shrink: 0;
+}
+
+.has-contact strong {
+    font-size: 15px;
+    white-space: normal; 
+    margin-left: 5px; 
+    flex-shrink: 0;
+}
+
+.has-contact a {
+    text-decoration: none;
+    color: #D6D6D6;
+    margin-left: 10px; 
+}
+
+@media screen and(min-width:768) {
+    .text-initial{
+        display: flex;
+        text-align: start;
+        position: relative;
+    }
+    
+}
+/* For Right */
+@media screen and (min-width:768) {
+    .top-bar-right{
+        margin-top: 10px;
+    }
+    .ul_1{
+        justify-content: start;
+        display: inline-flex;
+        flex-wrap: wrap;
+
+    }
+    
+}
+
+.top-bar-right{
+    margin-top: 10px;
+}
+
+.list_link {
+    color: #ffff;
+    width: auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: inherit;
+    height: 2em;
+    list-style: none;
+    line-height: 1;
+    cursor: pointer;
+    border-radius: inherit;
+    transition: .15s all ease;
+    box-sizing: content-box;
+    text-decoration: none;
+    padding: 0;
+    vertical-align: top;
+    letter-spacing: normal;
+}
+.ul_1{
+    display: flex;
+    list-style-type: none;
+    justify-content: center !important;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 100px; */
+}
+.wepx_icon{
+    display: inline-block;
+}
+.screen-reader-text{
+    clip: rect(1px, 1px, 1px, 1px);
+    word-wrap: normal;
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+}
+.ml_2{
+    margin-left: 20px;
+}
+/* nav section */
+.nav-link:hover{
+    color: #1a73e8 !important;
+}
+.container_0{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* main section */
+.page-header-inner {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+  }
+  .page-header-title{
+    color:#222222;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: var(--wpex-heading-font-family);
+    line-height: var(--wpex-heading-line-height);
+    letter-spacing: var(--wpex-heading-letter-spacing);
+    text-transform: var(--wpex-heading-text-transform);
+    text-wrap: var(--wpex-heading-text-wrap);
+    word-break: break-word;
+  }
+  .event{
+    padding-left: 131px;
+    padding-right: 131px;
+
+  }
+  .site-title{
+    font-size: 20px;
+  }
+.ul_0{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start; 
+        align-items: center;
+        list-style-type: none;
+        color: black;
+        gap: 10px;
+        margin-left: -20px;
+}
+.ul_0 li {
+    margin: -7px; /* Remove extra margins if any */
+    padding: 0 5px; /* Add small padding if needed */
+}
+.ul_0 li a{
+    text-decoration: none;
+    color: #222222;
+}
+
+.div_0 .ul_0 li a:hover {
+   text-decoration: underline;
+}
+/* footer section */
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+.p_0{
+    padding-bottom: 90px;
+    padding-top: 50px;
+    text-align: center;
+}
+.link_a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sapn_1{
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white !important;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    text-align: center;
+}
+/* footer-site */
+.widget-title{
+    /* margin-right: 68px; */
+    text-align: left;
+}
+.menu-useful{
+    list-style-type: none;
+    margin-left: -34px;
+    
+}
+.menu-items a{
+    text-decoration: none;
+    color: white;
+    margin-right: 125px;
+    
+}
